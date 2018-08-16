@@ -2,5 +2,19 @@
     "name": "Download Images while Audio is Playing",
     "version": "1.0",
     "description": "Download selected images while the selected audio file is playing and name the downloading image files to timecode of the paused position!",
+    "browser_action": {
+        "default_icon": {
+            "16": "images/image_audio16.png",
+            "32": "images/image_audio32.png",
+            "48": "images/image_audio48.png",
+            "128": "images/image_audio128.png"
+        }
+    },
+    "icons": {
+        "16": "images/image_audio16.png",
+        "32": "images/image_audio32.png",
+        "48": "images/image_audio48.png",
+        "128": "images/image_audio128.png"
+    },
     "manifest_version": 2
 }
