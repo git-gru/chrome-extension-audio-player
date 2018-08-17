@@ -2,6 +2,9 @@
     "name": "Download Images while Audio is Playing",
     "version": "1.0",
     "description": "Download selected images while the selected audio file is playing and name the downloading image files to timecode of the paused position!",
+    "permissions": [
+        "activeTab"
+    ],
     "background": {
         "scripts": [
             "background.js"
