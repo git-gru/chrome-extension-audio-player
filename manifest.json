@@ -5,6 +5,14 @@
     "permissions": [
         "activeTab"
     ],
+    "web_accessible_resources": [
+        "assets/css/*",
+        "assets/css/font-awesome-4.3.0/css/*",
+        "assets/css/font-awesome-4.3.0/fonts/*",
+        "assets/css/font-awesome-4.3.0/less/*",
+        "assets/css/font-awesome-4.3.0/scss/*",
+        "assets/js/*"
+    ],
     "background": {
         "scripts": [
             "background.js"
