@@ -1,7 +1,7 @@
 var url = chrome.extension.getURL("")
 
 var iframe = document.createElement("iframe");
-iframe.setAttribute("style", "width: 100%; height: 80px; position: fixed; z-index: 10000;")
+iframe.setAttribute("style", "width: 100%; height: 80px; position: fixed; bottom: 0; z-index: 10000;")
 iframe.setAttribute("src", "about:blank")
 iframe.setAttribute("scrolling", "no");
 iframe.setAttribute("frameborder", "0");
@@ -31,5 +31,5 @@ iframe.onload = function () {
 var elementExists = document.getElementById("iframe-music-player");
 
 if (!elementExists) {
-    document.body.insertBefore(iframe, document.body.firstChild)
+    document.body.appendChild(iframe)
 }
