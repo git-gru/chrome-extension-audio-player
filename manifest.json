@@ -19,6 +19,18 @@
         ],
         "persistent": false
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js": [
+                "assets/js/jquery-1.11.2.min.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
     "browser_action": {
         "default_icon": {
             "16": "images/image_audio16.png",
