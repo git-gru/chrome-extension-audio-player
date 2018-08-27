@@ -17,7 +17,7 @@ var HTML = container.outerHTML
 // List any CSS you want to reference within the iframe
 var CSS = '<link rel="stylesheet" href="' + url + 'assets/css/styles.css" type="text/css"><link rel="stylesheet" href="' + url + 'assets/css/font-awesome-4.3.0/css/font-awesome.min.css">';
 // List any JS you want to reference within the iframe
-var JS = '<script src="' + url + 'assets/js/jquery-1.11.2.min.js"></script><script src="' + url + 'assets/js/id3-minimized.js"></script><script src="' + url + 'assets/js/wavesurfer.min.js"></script><script src="' + url + 'assets/js/script.js"></script>';
+var JS = '<script src="' + url + 'assets/js/jquery-1.11.2.min.js"></script><script src="' + url + 'assets/js/id3-minimized.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/wavesurfer.js/2.0.6/wavesurfer.min.js"></script><script src="' + url + 'assets/js/script.js"></script>';
 // Now sticch it all together into one thing to insert into the iframe
 var myContent = '<!DOCTYPE html>' + '<html><head><meta charset="UTF-8"><title>HTML5 Music Player</title>' + CSS + '</head><body>' + HTML + JS + '</body></html>';
 

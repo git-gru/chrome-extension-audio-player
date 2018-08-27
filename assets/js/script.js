@@ -116,9 +116,7 @@ function readFile(file, callback) {
  ------------------*/
 
 
-var wavesurfer = Object.create(WaveSurfer);
-
-wavesurfer.init({
+var wavesurfer = WaveSurfer.create({
 	container: document.querySelector('#wave'),
 	cursorColor: '#aaa',
 	cursorWidth: 1,
